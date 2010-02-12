@@ -7,7 +7,7 @@
 \title{ Competition models for simultaneous growth of two bacterial flora }
 \description{
   Formulas of primary growth models used in predictive microbiology to model the
-  simultaneaous growth of two competitive bacterial flora assuming a Jameson effect
+  simultaneous growth of two competitive bacterial flora assuming a Jameson effect
   }
 \usage{
 jameson_buchanan
@@ -22,7 +22,7 @@ jameson_without_lag
 \details{
 
 
-    These models describe the simultaneaous evolution of the decimal logarithm of 
+    These models describe the simultaneous evolution of the decimal logarithm of 
     the microbial 
     counts of two flora (LOG10N) as a function of the time (t) and of the flora (flora)
     coded as 1 for counts of flora 1 and 2 for counts of flora 2. These three

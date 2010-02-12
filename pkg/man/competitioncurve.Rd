@@ -1,4 +1,5 @@
 \name{competitioncurve}
+\alias{competitioncurve}
 \alias{competition1}
 \alias{competition2}
 \docType{data}
