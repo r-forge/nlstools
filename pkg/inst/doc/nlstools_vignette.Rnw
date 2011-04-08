@@ -13,9 +13,9 @@
 
     The package \texttt{nlstools} provides several tools that help to fit of a gaussian nonlinear model \cite{Bates} using the fonction \texttt{nls} and to assess its quality of fit.
     
- \[  %début mode maths pour équation sur une ligne à part
+ \[  
     y = f(\theta,x)+ \varepsilon, \hspace{0.5cm} \varepsilon \sim \mathcal{N}(0,\sigma)
- \]     %fin mode maths
+ \] 
 
     The aim of this document is to provide examples showing how to use these tools that help to fit a model to data using the fonction \texttt{nls}, to check the validity of the assumptions of the model, to assess its quality of fit, to evaluate the precision of parameters estimates by use of confidence intervals or regions, ... For details, see the documentation of each function, using the R help command (e.g. \texttt{?nlsResiduals}). Do not forget to load the library using the function \texttt{library} before testing the following examples.
 
