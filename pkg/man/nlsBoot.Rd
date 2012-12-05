@@ -63,7 +63,7 @@ nls1 <- nls(gompertzm, growthcurve4,
 boo <- nlsBoot(nls1,niter=200)
 plot(boo)
 plot(boo, type = "boxplot", ask=FALSE)
-summary.nlsBoot(boo)
+summary(boo)
   }
 
 \keyword{ nonlinear }% at least one, from doc/KEYWORDS
